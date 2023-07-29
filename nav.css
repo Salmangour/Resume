@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+
+header{
+     background: url(./img/zetong-li-bLobpucHIvw-unsplash.jpg);
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     width: 100%;
+
+}
+ nav{
+    height: 8vh;
+    width: 100%;
+    background-color:black;
+    line-height: 8vh;
+    position: fixed;
+    opacity: .5;
+
+}
+nav ul{
+    float: right;
+    margin: 0;
+    padding-right: 100px;
+
+}
+ nav ul li{
+     list-style-type: none;
+     display: inline-block;
+     padding: 0px 32px;
+
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.logo{
+    height: 8vh;
+    float: left;
+    padding: 0px 30px;
+    border-radius: 80px 30px;
+    width: 40px;
+}
+nav ul li:hover{
+    background-color: peru;
+    border-radius: 20px;
+}
+h1{
+    font-size: 48px;
+    text-align: center;
+    line-height: 100vh;
+    color: white;
+    margin: auto;
+    text-shadow: 3px 4px 7px red;
+}
+.contant{
+    height: 50vh;
+    box-sizing: border-box;
+    padding: 30px 0px;
+}
+.ine{
+    height: 40vh;
+    float: left;
+    width: 20vw;
+    background-color: darkgoldenrod;
+    margin: 25px 20px 30px 20px;
+}
+@media screen and(max-width:1430px){
+    
+}
